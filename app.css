@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nunito", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.nav {
+  position: relative;
+  height: 10vh;
+  transition: ease-in-out 150ms;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav.sticky {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+.right-arrow {
+  width: 11px;
+}
+.st {
+  fill: #404040;
+}
+.logo {
+  position: relative;
+  left: -3.5%;
+  color: #404040;
+  font-size: 2rem;
+  color: #088c1c;
+}
+.links > * {
+  margin: 0 10px 0 10px;
+}
+.links {
+  margin: 0 10px 0 10px;
+  width: calc(100% +10px);
+}
+.links a,
+.log-sign a {
+  text-decoration: none;
+  color: #404040;
+}
+.link-1,
+.link-1 path {
+  transition: ease-in-out 150ms;
+}
+.link-1:hover,
+.link-1:hover path {
+  fill: #03ca03;
+  color: #03ca03;
+}
+.search {
+  position: relative;
+  display: flex;
+}
+.search img {
+  position: absolute;
+  width: 15px;
+  top: 50%;
+  left: 4%;
+  transform: translateY(-50%);
+}
+.search input {
+  width: 230px;
+  padding: 10px 30px;
+  border-radius: 45px;
+  border: 1px solid #c4c4c4;
+  outline: none;
+}
+.log-sign > * {
+  margin: 0 10px 0 10px;
+}
+.log-sign :nth-child(1) {
+  transition: ease-in-out 150ms;
+}
+.log-sign :nth-child(1):hover {
+  color: #03ca03;
+}
+.log-sign :nth-child(2) {
+  transition: ease-in-out 150ms;
+  background-color: #03ca03;
+  color: #f2f2f2;
+  padding: 10px 30px;
+  border-radius: 45px;
+}
+.log-sign :nth-child(2):hover {
+  background-color: #088c1c;
+}
+.hero {
+  display: flex;
+  position: relative;
+  min-width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.hero--svg {
+  width: 350px;
+}
+.hero--desc h4 {
+  font-family: "Lora", sans-serif;
+  font-size: 4rem;
+  line-height: 70px;
+  color: #088c1c;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.hero--desc p {
+  font-size: 1.5rem;
+  line-height: 35px;
+  color: #404040;
+  font-weight: 600;
+}
+.find--tutor {
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/tutor.jpg");
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 568px;
+  border-radius: 15px;
+}
+.find--tutor--desc h4 {
+  color: #f2f2f2;
+  font-family: "lora", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 70px;
+  margin-top: 50px;
+}
+.find--tutor--btn > * {
+  margin: 0 30px 0 30px;
+}
+.find--tutor--btn {
+  display: flex;
+  padding-top: 20px;
+  margin-top: 90px;
+}
+.tutor--btn1,
+.tutor--btn2 {
+  width: 350px;
+  height: 150px;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #088c1c;
+  padding: 20px 40px 20px 20px;
+  transition: ease-in-out 150ms;
+  cursor: pointer;
+}
+.tutor--btn1 p,
+.tutor--btn2 p {
+  font-size: 1.8rem;
+  line-height: 30px;
+}
+.tutor--btn1 span,
+.tutor--btn2 span {
+  position: relative;
+  top: 25px;
+  font-size: 1.2rem;
+}
+.tutor--btn1:hover,
+.tutor--btn2:hover {
+  background-color: #f2f2f2;
+  color: #088c1c;
+}
+.footer {
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+  background-color: #011d04;
+  height: 40vh;
+  color: #cdd6cf;
+  font-size: 0.8rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer > * {
+  margin: 0 10px 0 10px;
+}
+.client,
+.tutor,
+.company {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: -50px;
+}
+.client a,
+.tutor a,
+.company a {
+  color: inherit;
+  text-decoration: none;
+}
+.client p,
+.tutor p,
+.company p {
+  margin-bottom: 30px;
+}
+.footer--line {
+  position: absolute;
+  border-top: 1px solid #414942;
+  width: 80%;
+  bottom: 70px;
+}
+.footer--info > * {
+  margin: 0 20px 0 20px;
+}
+.footer--info {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+}
+
+/* teacher card */
+.t-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.t-card-container {
+  width: 300px;
+  min-height: 300px;
+  font-size: 0.8rem;
+  color: #414942;
+}
+.t-main-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.t-main-card > * {
+  margin: 10px 10px 10px 10px;
+}
+.t-image-container,
+.t-card-detail,
+.t-about {
+  padding: 1rem;
+}
+.t-image-container img {
+  width: 150px;
+  height: 130px;
+}
+.t-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid #c4c4c4; */
+  box-shadow: 0 0 5px rgb(212, 212, 212);
+}
+
+.t-name,
+.t-gender,
+.t-age,
+.t-education,
+.t-experience,
+.t-address,
+.t-history,
+.t-subject,
+.t-class {
+  display: flex;
+  flex-wrap: wrap;
+}
+.t-about {
+  display: none;
+}

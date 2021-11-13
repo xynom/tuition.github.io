@@ -1,0 +1,125 @@
+.login--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.login--logo a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #088c1c;
+}
+.main--login {
+  height: 80vh;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.login--container {
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login--form {
+  background-color: #fff;
+  height: 600px;
+  width: 700px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.login--form--detail {
+  display: flex;
+  flex-direction: column;
+}
+.login--form--detail h4 {
+  font-size: 2rem;
+  color: #088c1c;
+}
+.login--form--detail > * {
+  margin: 20px 0;
+}
+.login--form--detail input {
+  width: 300px;
+  padding: 15px 10px;
+  border: none;
+  background-color: #f2f2f2;
+}
+.login--form--detail a {
+  text-decoration: none;
+  color: #767a77;
+}
+.login--form--detail .login--btn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  background-color: #088c1c;
+  left: 20%;
+  color: #fff;
+  width: 200px;
+  padding: 15px 5px;
+  border-radius: 5px;
+}
+.login--img {
+  max-width: 500px;
+  height: 600px;
+  background-image: url("./images/login-img.jpg");
+  background-size: contain;
+  overflow: hidden;
+}
+.login--img--detail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 80px;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+.login--img--detail h4 {
+  font-size: 2rem;
+}
+.login--img--detail p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.login--img--detail a {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  left: 25%;
+  margin-top: 50px;
+  border: 1px solid #ffffff;
+  width: 200px;
+  padding: 15px 5px;
+  border-radius: 5px;
+}
+/* Footer */
+.login--footer {
+  height: 20vh;
+  background-color: #011d04;
+  color: #cdd6cf;
+  font-size: 1rem;
+}
+.login--footer--desc {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.login--footer--desc a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login--footer--desc p {
+  margin-bottom: 20px;
+}
